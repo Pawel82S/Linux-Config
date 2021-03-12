@@ -1,0 +1,55 @@
+theme = "solarized-dark"
+icons = "awesome"
+
+[[block]]
+block = "disk_space"
+path = "/"
+alias = "/"
+info_type = "available"
+unit = "GB"
+interval = 60
+warning = 10.0
+
+[[block]]
+block = "disk_space"
+path = "/home"
+alias = "/~"
+info_type = "available"
+unit = "GB"
+interval = 60
+warning = 10.0
+alert = 5.0
+alert = 5.0
+
+[[block]]
+block = "memory"
+display_type = "memory"
+format_mem = "{Mug}/{MTg}"
+format_swap = "{SUp}%"
+
+[[block]]
+block = "cpu"
+interval = 1
+
+[[block]]
+block = "load"
+interval = 1
+format = "{1m}"
+
+[[block]]
+block = "sound"
+
+[[block]]
+block = "bluetooth"
+mac = "00:42:79:B6:D1:09"
+label = ""
+
+[[block]]
+block = "time"
+interval = 60
+format = "%a %d/%m %R"
+
+[[block]]
+block = "battery"
+interval = 30
+format = "{percentage}"
