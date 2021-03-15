@@ -45,7 +45,8 @@ let mapleader = " "
 source $HOME/.config/nvim/plug-config/plugins.vim
 source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/nerd-commenter.vim
-source $HOME/.config/nvim/plug-config/nerd-tree.vim
+"source $HOME/.config/nvim/plug-config/nerd-tree.vim
+source $HOME/.config/nvim/plug-config/fzf.vim
 
 
 colorscheme gruvbox
