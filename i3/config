@@ -201,13 +201,14 @@ mode "resize" {
 }
 
 
-set $internet Internet: [f]irefox, [t]hunderbird, [b]rave
+set $internet Internet: [b]rave, [c]hromium, [t]hunderbird, [v]ivaldi
 bindsym $mod+i mode "$internet"
 # Internet applications shortcuts
 mode "$internet" {
-    bindsym f exec "firefox"
 	bindsym b exec "brave"
 	bindsym t exec "thunderbird"
+    bindsym c exec "chromium"
+    bindsym v exec "vivaldi"
 
     # back to normal: Enter or Escape or $mod+i
     bindsym Return mode "default"
