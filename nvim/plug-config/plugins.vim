@@ -18,6 +18,8 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() }}
 Plug 'junegunn/fzf.vim'
 Plug 'lunarwatcher/auto-pairs'
 Plug 'rust-lang/rust.vim'
+
+Plug 'tpope/vim-fugitive'
 "Plug 'ctrlpvim/ctrlp.vim'
 
 call plug#end()

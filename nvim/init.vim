@@ -7,7 +7,7 @@ set expandtab
 set smartindent
 set nowrap " Disable text line wrapping
 set scrolloff=8 " Scrool buffer when you are X lines from top/bottom
-set colorcolumn=100 " Bar displayed at X column of text in buffer
+set colorcolumn=108 " Bar displayed at X column of text in buffer
 
 if executable('rg')
 	let g:rg_derive_root='true'
