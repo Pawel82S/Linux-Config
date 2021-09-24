@@ -1,5 +1,5 @@
 "let g:coc_node_path="/home/pawel/bin/node.js/bin/node"
-let g:coc_global_extensions = ['coc-clangd', 'coc-git', 'coc-toml', 'coc-rust-analyzer', 'coc-snippets']
+let g:coc_global_extensions = ['coc-clangd', 'coc-git', 'coc-toml', 'coc-rust-analyzer', 'coc-snippets', 'coc-zig']
 
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
