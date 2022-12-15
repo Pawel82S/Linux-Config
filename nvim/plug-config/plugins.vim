@@ -19,6 +19,9 @@ Plug 'junegunn/fzf.vim'
 Plug 'lunarwatcher/auto-pairs'
 Plug 'rust-lang/rust.vim'
 
+Plug 'Tetralux/odin.vim'
+Plug 'ziglang/zig.vim'
+
 Plug 'tpope/vim-fugitive'
 "Plug 'ctrlpvim/ctrlp.vim'
 

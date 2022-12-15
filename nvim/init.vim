@@ -52,15 +52,15 @@ source $HOME/.config/nvim/plug-config/fzf.vim
 colorscheme gruvbox
 nnoremap <C-p> :Files<CR>
 
-fun! TrimWhitespace()
-    let l:save = winsaveview()
-    keeppatterns %s/\s\+$//e
-    call winrestview(l:save)
-endfun
+"fun! TrimWhitespace()
+    "let l:save = winsaveview()
+    "keeppatterns %s/\s\+$//e
+    "call winrestview(l:save)
+"endfun
 
 augroup PAUL82S
     " Clear auto commands from this group so each of them will exist just once.
     autocmd!
-    autocmd BufWritePre * :call TrimWhitespace()
+    "autocmd BufWritePre * :call TrimWhitespace()
     autocmd BufWritePre *.rs :RustFmt
 augroup end
