@@ -50,7 +50,9 @@ source $HOME/.config/nvim/plug-config/fzf.vim
 
 
 colorscheme gruvbox
-nnoremap <C-p> :Files<CR>
+"nnoremap <C-p> :Files<CR>
+xmap g; <Plug>(EasyAlign)
+nmap g; <Plug>(EasyAlign)
 
 "fun! TrimWhitespace()
     "let l:save = winsaveview()
@@ -64,3 +66,5 @@ augroup PAUL82S
     "autocmd BufWritePre * :call TrimWhitespace()
     autocmd BufWritePre *.rs :RustFmt
 augroup end
+
+autocmd! BufNewFile,BufRead *.vert,*.frag set ft=glslx
